@@ -4,7 +4,7 @@ Library    SeleniumLibrary
 *** Variables ***
 ${URL}               http://automationexercise.com
 ${BROWSER}           Chrome
-${ADD_TO_CART_BTN}   (//a[contains(text(),'Add to cart')])[1]
+${ADD_TO_CART_BTN}   (//a[contains(text(),'Add to cart')])[5]
 ${CART_BTN}          //a[@href='/view_cart']
 ${REMOVE_BTN}        //a[@class='cart_quantity_delete']
  
